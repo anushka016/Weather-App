@@ -1,4 +1,4 @@
-var key = config.Weather_apikey;
+var key = config.Weather_apikey; //sign in and set up your own API key on "https://openweathermap.org/api", and replace "config.Weather_apikey" with your key
 let weather = {
     
     fetchWeather: function (city) {
